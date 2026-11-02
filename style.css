@@ -83,3 +83,21 @@ ul li::before {
 .highlight ul li {
     color: white;
 }
+
+.image-gallery {
+    display: flex;      
+    flex-wrap: wrap;
+    gap: 10px;         
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.image-gallery img {
+    width: auto;
+    height: 250px;   
+    object-fit: cover;  
+    border-radius: 4px; 
+}
