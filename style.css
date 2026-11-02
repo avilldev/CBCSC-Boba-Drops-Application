@@ -3,7 +3,8 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;    font-weight: 700;
+    font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+    font-weight: 700;
 }
 
 h1 {
@@ -100,4 +101,24 @@ ul li::before {
     height: 250px;   
     object-fit: cover;  
     border-radius: 4px; 
+}
+
+.credits {
+    background-color: rgb(1, 59, 19);
+    border-radius: 12px;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.credits p {
+    font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+    font-weight: 700;
+    color: beige;
+}
+
+.credits a {
+    text-decoration: underline wavy;
+    color: white;
 }
